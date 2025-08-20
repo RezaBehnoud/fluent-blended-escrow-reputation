@@ -27,3 +27,22 @@ It demonstrates how to integrate **escrow contracts** with a **reputation system
 ```bash
 npm install
 
+### 2. Compile contracts
+```bash
+npx hardhat compile
+
+### 3. Run local node
+```bash
+npx hardhat node
+
+### 4. Deploy contracts
+```bash
+npx hardhat run deploy/00_deploy_contracts.ts --network localhost
+
+### Contribution
+```bash
+Feel free to fork this repository, open issues, and submit pull requests.
+
+### License
+```bash
+This project is released under the MIT License.
